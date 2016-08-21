@@ -5,9 +5,9 @@ document.title = "Dominik Schlossers Technology Radar (August 2016)";
 //This is the concentic circles that want on your radar
 var radar_arcs = [
     {'r': 100, 'name': 'Adopt'}
-    , {'r': 200, 'name': 'Try in side project'}
+    , {'r': 200, 'name': 'Trial'}
     , {'r': 300, 'name': 'Keep an eye on'}
-    , {'r': 400, 'name': 'Dont invest any time'}
+    , {'r': 400, 'name': 'Dont invest any private time'}
 ];
 
 //This is your raw data
@@ -60,7 +60,7 @@ var radar_data = [
             {name: "Pair Programming", pc: {r: 90, t: 170}, movement: "c"},
 
             {name: "Machine Learning", pc: {r: 110, t: 133}, movement: 'c'},
-            {name: "Personal Kanban", pc: {r: 110, t: 100}, movement: 'c'},
+            {name: "Personal Kanban", pc: {r: 110, t: 110}, movement: 'c'},
             {name: "CQRS / Event Sourcing", pc: {r: 130, t: 120}, movement: "c"},
             {name: "Single Page Applications", pc: {r: 150, t: 95}, movement: "c"},
             {name: "Git flow / Pull Requests", pc: {r: 170, t: 133}, movement: 'c'},
@@ -78,11 +78,9 @@ var radar_data = [
         "color": "#587486",
         "items": [
 
-            {name: 'Git', pc: {r: 50, t: 42}, movement: 'c'},
-            {name: 'Confluence', pc: {r: 50, t: 50}, movement: 'c'},
+            {name: 'Pomodoro timer', pc: {r: 50, t: 42}, movement: 'c'},
             {name: 'Jenkins as deployment pipeline', pc: {r: 70, t: 55}, movement: 'c'},
             {name: 'Trello', pc: {r: 90, t: 75}, movement: 'c'},
-            {name: 'Silk Test', pc: {r: 90, t: 80}, movement: 'c'},
 
             {name: 'Docker', pc: {r: 110, t: 19}, movement: 'c'},
             {name: 'PowerShell', pc: {r: 110, t: 13}, movement: 'c'},
@@ -100,8 +98,10 @@ var radar_data = [
             {name: 'Chef', pc: {r: 250, t: 34}, movement: 'c'},
             {name: 'Ansible', pc: {r: 250, t: 24}, movement: 'c'},
             {name: 'Vagrant', pc: {r: 280, t: 74}, movement: 'c'},
+            {name: 'Xtext', pc: {r: 280, t: 78}, movement: 'c'},
+            {name: 'MPS', pc: {r: 280, t: 82}, movement: 'c'},
 
-            {name: 'JDeveloper', pc: {r: 450, t: 29}, movement: 'c'},
+            {name: 'JDeveloper', pc: {r: 390, t: 29}, movement: 'c'},
         ]
     },
     {
@@ -150,9 +150,11 @@ var radar_data = [
             {name: 'RxJava', pc: {r: 150, t: 298}, movement: 'c'},
             {name: 'Scala', pc: {r: 150, t: 320}, movement: 'c'},
             {name: 'TypeScript', pc: {r: 170, t: 330}, movement: 'c'},
+            {name: '.NET Core', pc: {r: 180, t: 350}, movement: 'c'},
 
             {name: 'Clojure', pc: {r: 210, t: 320}, movement: 'c'},
             {name: 'Swift', pc: {r: 220, t: 310}, movement: 'c'},
+            {name: 'Roslyn', pc: {r: 230, t: 350}, movement: 'c'},
 
             {"name": "ASP.NET WebForms", "pc": {"r": 375, "t": 330}, "movement": "c"},
             {"name": "Java 6 and earlier", "pc": {"r": 390, "t": 350}, "movement": "c"},
